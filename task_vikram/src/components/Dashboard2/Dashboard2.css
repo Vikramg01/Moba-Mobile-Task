@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.db2 {
+    display: flex;
+    background-color: #262626;
+    color: white;
+}
+.nav {
+    background-color: #262626;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.nav h1:hover{
+    color: #FFCC00;
+    cursor: pointer;
+}
+
+aside {
+    width: 30%;
+    height: auto;
+    background-color: #191919;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+aside .arrow-left{
+    margin-top: 15px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: right;
+}
+
+aside p:hover {
+    color: #FFCC00;
+    cursor: pointer;
+}
+
+
+.home-p-db2{
+    width: 60rem;
+    height: 25px;
+    font-size: small;
+    background-color: #262626;
+    opacity: 0.7;
+    margin-bottom: 4px;
+}
+
+.data {
+    display: flex;
+    gap: 50px;
+    /* margin-right: 10px; */
+    
+}
+
+.data1, .data2, .data3, .data4 {
+    display: flex;
+    gap: 20px;
+    background-color: #191919;
+    width: 200px;
+    justify-content: space-between;
+    padding: 10px;
+    border-left: 2px solid #3B3B3B;
+}
+
+.data-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    gap: 9px;
+}
+
+.data-right {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.form {
+    width: 50%;
+}
+
+.form p {
+    height: 40px;
+    opacity: 0.44;
+}
+
+form {
+    background-color: #191919;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form input {
+    background-color: #3B3B3B;
+    border: transparent;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.mail-mob {
+    display: flex;
+    gap: 30px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+
+.mob {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    gap: 5px;
+}
+
+.addr {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    gap: 5px;
+}
+
+.posy-city {
+    display: flex;
+    gap: 30px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+
+.lati-longi {
+    display: flex;
+    gap: 30px;
+}
+
+.latitude{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+
+.longitude {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 5px;
+}
+
+.submit-btn {
+    width: 200px;
+    border: transparent;
+    background-color: #FFCC00;
+    border-radius: 4px;
+    height: 30px;
+    font-weight: bold;
+    margin-left: 49%;
+    margin-top: 12px;
+}
+
+.map {
+    width: 50%;
+    padding-right: 1%;
+}
